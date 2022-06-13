@@ -1,5 +1,5 @@
 # OrlandoUc.github.io
 
-¡Bienvenido!
+Welcome!
 
-Éste es mi repositorio personal.
+This is my personal repository!
