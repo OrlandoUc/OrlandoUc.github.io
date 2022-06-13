@@ -60,7 +60,7 @@ X <- scale(datos_FD)
 
 #grafico de las series
 ts.plot(X, xlab="Tiempo", ylab="ITAAE", 
-        main ="Gráfico de los ITAEE de los 32 estados de 1993/01 a 2019/02")
+        main ="GrÃ¡fico de los ITAEE de los 32 estados de 1993/01 a 2019/02")
 
 #descomposicion en valores propios
 XtX <- t(X)%*%X
@@ -93,7 +93,7 @@ adf_test
 adf_test_fd
 
 #grafica componente principal 1
-plot(-mod1_compr_princ$Fhat[,1], xlab="Días", ylab="F_hat 1",
+plot(-mod1_compr_princ$Fhat[,1], xlab="DÃ­as", ylab="F_hat 1",
         main ="Componente principal 1", col="blue",type='l',lwd=3)
 abline(v=c(1,16,31,47,62,77,92,108,123,139,154,169,184,200,215,230,245,261), col='gray80', lty=2)
 abline(h=c(-2,-1,0,1,2,3,4,5), col='gray80', lty=2)
